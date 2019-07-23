@@ -1,0 +1,18 @@
+add $s1, $s2, $s3
+sub $s4, $s5, $s6
+addi $s7, $t0, 100
+lw  $t1, 100($t2)
+sw  $t3, 100($t4) 
+and $t5, $zero, $t7  
+nor $t8, $t9, $v0
+andi $v1, $a1, 0x2D
+ori $a2, $a3, 5
+sll $gp, $sp, 10
+srl $fp, $ra, 10
+beq $zero, $s2, 100
+bne $s1, $zero, 100
+slt $t6, $s2, $s3
+jr $ra
+j 10000
+jal 10000
+j 0xF
